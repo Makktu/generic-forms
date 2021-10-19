@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::placeholder {
+    color: rgb(236, 222, 222);
+}
+
 body {
     font-family: "Roboto", sans-serif;
     display: flex;
@@ -16,4 +20,72 @@ body {
     /* my dark styling */
     background-color: rgb(19, 17, 17);
     color: rgb(236, 222, 222);
+}
+
+button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(19, 138, 185);
+}
+
+#new-task:hover {
+    background-color: chartreuse;
+    transition: 0.7s ease;
+}
+
+.form {
+    background-color: rgb(3, 3, 3);
+    border: rgb(6, 154, 240) 15px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 800px;
+    opacity: 0;
+    transition: 1.2s;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    font-size: 1.3rem;
+    width: 300px;
+    border-radius: 5px;
+    margin: 15px 25px;
+    background-color: rgb(6, 154, 240);
+    color: seashell;
+}
+
+/* textarea {
+    width: 300px;
+    font-family: inherit;
+    font-size: 1.3rem;
+} */
+
+#submit {
+    background-color: lawngreen;
+}
+#cancel {
+    background-color: rgb(168, 76, 76);
+}
+#print {
+    background-color: rgb(197, 230, 15);
+}
+
+.datefield {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#toggle {
+    font-size: 0.7rem;
 }

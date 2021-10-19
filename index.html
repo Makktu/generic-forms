@@ -13,11 +13,35 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>A New Hope</title>
+        <title>New Concept</title>
     </head>
     <body>
-        <h1>All Over Rovers</h1>
+        <div class="container">
+            <button id="new-task"><i class="fas fa-plus"></i> NEW TASK</button>
+            <button id="toggle">TOGGLE LIGHT/DARK</button>
+            <div class="form">
+                <div class="title">NewConcept</div>
+                <input class="name" placeholder="NAME" />
+                <input class="phone" placeholder="EXTENSION" />
+                <input class="from-loc" placeholder="FROM LOCATION" />
+                <input class="to-loc" placeholder="TO LOCATION" />
+                <textarea
+                    id="task-details"
+                    name="details"
+                    placeholder="TASK DETAILS"
+                    rows="5"
+                    cols="30"
+                ></textarea>
 
+                <!-- <option class="name" placeholder="NAME" />
+                <option class="name" placeholder="NAME" /> -->
+                <button id="submit">SUBMIT</button>
+                <button id="cancel">CANCEL</button>
+                <button id="print">PRINT</button>
+                <div class="datefield"></div>
+            </div>
+            <div class="users-connected">Users Connected</div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
