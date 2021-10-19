@@ -17,21 +17,21 @@ newTask.addEventListener("click", () => {
     dateField.textContent = (new Date() + "").slice(4, -31);
 });
 
-class Task {
-    constructor(
-        name,
-        phone,
-        fromLoc,
-        toLoc,
-        details,
-        category,
-        operator,
-        dateTime
-    ) {
-        this.name = name;
-    }
+// class Task {
+//     constructor(
+//         name,
+//         phone,
+//         fromLoc,
+//         toLoc,
+//         details,
+//         category,
+//         operator,
+//         dateTime
+//     ) {
+//         this.name = name;
+//     }
 
-    printThis() {
-        // stuff
-    }
-}
+//     printThis() {
+//         // stuff
+//     }
+// }

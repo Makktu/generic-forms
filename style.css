@@ -22,6 +22,10 @@ body {
     color: rgb(236, 222, 222);
 }
 
+/* .container {
+    height: 80vh;
+} */
+
 button {
     font-size: 1.2rem;
     border-radius: 5px;
@@ -39,7 +43,7 @@ button {
     border: rgb(6, 154, 240) 15px solid;
     border-radius: 10px;
     width: 400px;
-    height: 800px;
+    height: 80vh;
     opacity: 0;
     transition: 1.2s;
     text-align: center;
@@ -81,9 +85,8 @@ textarea {
 .datefield {
     position: absolute;
     bottom: 0;
-    margin-left: 50px;
-    text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    left: 50;
 }
 
 #toggle {
